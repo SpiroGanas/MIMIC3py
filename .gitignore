@@ -103,3 +103,7 @@ ENV/
 
 # PyCharm files
 .idea/
+
+
+# PyPi file that contains passwords
+.pypirc
