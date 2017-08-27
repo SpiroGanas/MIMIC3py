@@ -8,7 +8,7 @@ setup(
     author = 'Spiro Ganas',
     author_email = 'spiroganas@gatech.edu',
     url = 'https://github.com/SpiroGanas/MIMIC3py',
-    download_url = 'download link you saved',
+    download_url = 'https://github.com/SpiroGanas/MIMIC3py/archive/0.1.tar.gz',
     keywords = ['MIMIC', 'Critical Care', 'Informatics'],
-    classifiers = [],
+    #classifiers = [],
 )
