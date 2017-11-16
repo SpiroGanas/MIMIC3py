@@ -168,7 +168,7 @@ def Mimic_dtypes():
                                 'STOPPED': str,
                                 }
     dtypes['DIAGNOSES_ICD'] = {'ROW_ID': int,
-                               'SUBJECT_ID': float,
+                               'SUBJECT_ID': int,
                                'HADM_ID': float,
                                'SEQ_NUM': float,
                                'ICD9_CODE': str,
