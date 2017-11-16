@@ -21,9 +21,9 @@ physionet_FILENAMES = [
     "ADMISSIONS.csv.gz",  # 12 MB
     "CALLOUT.csv.gz",  # 6.1 MB
     "CAREGIVERS.csv.gz",  # 199 KB
-    #   "CHARTEVENTS.csv.gz",         # 33 GB ------BIG!!!
+    "CHARTEVENTS.csv.gz",         # 33 GB ------BIG!!!
     "CPTEVENTS.csv.gz",  # 56 MB
-    #   "DATETIMEEVENTS.csv.gz",      # 502 MB
+    "DATETIMEEVENTS.csv.gz",      # 502 MB
     "D_CPT.csv.gz",  # 14 KB
     "DIAGNOSES_ICD.csv.gz",  # 19 MB
     "D_ICD_DIAGNOSES.csv.gz",  # 1.4 KB
@@ -32,16 +32,16 @@ physionet_FILENAMES = [
     "D_LABITEMS.csv.gz",  # 43 KB
     "DRGCODES.csv.gz",  # 11 MB
     "ICUSTAYS.csv.gz",  # 6.1 MB
-    #   "INPUTEVENTS_CV.csv.gz",      # 2.3 GB ------BIG!!!
-    #   "INPUTEVENTS_MV.csv.gz",      # 931 MB
-    #   "LABEVENTS.csv.gz",           # 1.8GB ------BIG!!!
-    #   "MICROBIOLOGYEVENTS.csv.gz",  # 70 MB
-    #   "NOTEEVENTS.csv.gz",          # 3.8 GB  ------BIG!!!
+    "INPUTEVENTS_CV.csv.gz",      # 2.3 GB ------BIG!!!
+    "INPUTEVENTS_MV.csv.gz",      # 931 MB
+    "LABEVENTS.csv.gz",           # 1.8GB ------BIG!!!
+    "MICROBIOLOGYEVENTS.csv.gz",  # 70 MB
+    "NOTEEVENTS.csv.gz",          # 3.8 GB  ------BIG!!!
     "OUTPUTEVENTS.csv.gz",  # 379 MB
     "PATIENTS.csv.gz",  # 2.6 MB
-    #   "PRESCRIPTIONS.csv.gz",       # 735 MB
+    "PRESCRIPTIONS.csv.gz",       # 735 MB
     "PROCEDUREEVENTS_MV.csv.gz",  # 47 MB
     "PROCEDURES_ICD.csv.gz",  # 6.5 MB
     "SERVICES.csv.gz",  # 3.4 MB
-    #   "TRANSFERS.csv.gz",  # 24 MB
+    "TRANSFERS.csv.gz",  # 24 MB
 ]
