@@ -107,3 +107,5 @@ ENV/
 
 # PyPi file that contains passwords
 .pypirc
+MIMIC3py/WIP.py
+MIMIC3py/sandbox.py
