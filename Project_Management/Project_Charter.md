@@ -17,7 +17,7 @@
 		
 | Start Date | End Date    | Project Manager | Client      |
 | :---------:|:-----------:| :--------------:| ------------|
-|2017-11-23	|???  | Spiro Ganas| MIMIC3py Community |
+|2017-11-23	|2018-03-01  | Spiro Ganas| MIMIC3py Community |
 
 # Introduction
 
