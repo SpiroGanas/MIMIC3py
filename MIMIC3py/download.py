@@ -26,6 +26,11 @@ def download_file(url, save_folder=local_save_folder, username=physionet_USERNAM
     """ This code downloads files from a password protected http site.
         https://stackoverflow.com/questions/16694907/how-to-download-large-file-in-python-with-requests-py
     """
+
+    if not verify_physionet_credentials(username, password): return "Error: Username/Password invalid."
+
+
+
     local_filename = url.split('/')[-1]
 
     # If the file already exists, don't download it again
@@ -43,6 +48,18 @@ def download_file(url, save_folder=local_save_folder, username=physionet_USERNAM
         return "Downloaded and successfully verified: " + local_filename
     else:
         return "Downloaded but FAILED TO VERIFY: " + local_filename
+
+
+
+
+
+def verify_physionet_credentials(username, password):
+    """Returns True if the username and password are valid for the physionet.org website."""
+    url = "https://physionet.org/works/MIMICIIIClinicalDatabase/files/"
+    r = requests.get(url, auth=(username, password))
+    return True if r.status_code == 200 else False
+
+
 
 
 if __name__ == "__main__":
