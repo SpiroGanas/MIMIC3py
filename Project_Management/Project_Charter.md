@@ -1,5 +1,3 @@
-[comment]: <> (Template is from: https://github.com/documize/document-templates)
-
 #Project Charter
 
 **Project Charter For:**  MIMIC3py
@@ -59,7 +57,7 @@ List the requirements that must be satisfied in order for the project’s goals 
 
  
 ###Milestones and Deliverables
-*List the major project milestones and the deliverables from them*
+
 
 | Milestone     | Deliverable                                                         |   
 | ------------- |---------------------------------------------------------------------| 
