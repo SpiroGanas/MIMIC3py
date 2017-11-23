@@ -33,19 +33,19 @@ MIMIC3py is a Python library.  It makes the MIMIC III Critical Care Database eas
 
 MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with ~40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.
 
-The MIMIC3py Python library is designed to help healthcare data scientists analyze this data.  IT includes tools to download, verify and load the data.  
+The MIMIC3py Python library is designed to help healthcare data scientists analyze this data.  It includes tools to download, verify and load the data.  
 
-MIMIC3py also demonstrates how to perform "feature engineering", converting the data into a format that can be analyzewd using machine learning algorithms.  Sample scripts show how sk-learn and TensorFlow can be used to analyze MIMIC III data.
+MIMIC3py also demonstrates how to perform "feature engineering", converting the data into a format that can be analyzed using machine learning algorithms.  Sample scripts show how sk-learn and TensorFlow models can be applied to the MIMIC III data.
 
-The business case for this project is the belief that MIMIC III data contains hidden knowledge that can improve healthcare.  This project contributes to the discovery of that knowledge by automating the routine tasks, allowing healthcare data scientist to focus on "the fun stuff". 
+The business case for this project is the belief that MIMIC III data contains hidden knowledge that can improve healthcare.  This project contributes to the discovery of that knowledge by automating routine tasks, allowing healthcare data scientist to "focus on the fun stuff". 
 ## Project Scope
 
 ### Objectives
 
 * Allow authorized users to easily download the MIMIC III data.
 * Provide tools to load the MIMIC III data into pandas DataFrames.
-* Provide tools to convert the data into formats commomly used for Machine Learning projects.
-* Provide sample code demonstrating the analysis of MIMIC III data using machine learning algorithms.
+* Provide tools to convert the data into formats that can be analyzed using machine learning algorithms.
+* Provide sample code demonstrating the analysis of MIMIC III data.
 
 ### High-Level Requirements
 List the requirements that must be satisfied in order for the project’s goals to be realised.
@@ -120,7 +120,6 @@ N/A
 
 *This project has been reviewed and the Project Charter accepted by the following people, as indicated by signature below:*
 
-List all individuals whose signature is required, along with their titles and/or roles on the project.
 
 **Full Name**  Spiro Ganas
 
@@ -133,7 +132,10 @@ List all individuals whose signature is required, along with their titles and/or
 
 
 ## APPENDIX A - REFERENCES
-N/A
+| Reference                   | Comments                       |   
+| ------------------------|----------------------------------| 
+|MIMIC III Website|https://mimic.physionet.org/|
+
 
 ## APPENDIX B - GLOSSARY
 | Term                    | Definition                       |   
