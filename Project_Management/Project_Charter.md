@@ -30,10 +30,14 @@ This document provides the information necessary to frame the project in the con
 MIMIC3py is a Python library.  It makes the MIMIC III Critical Care Database easily accessible to healthcare data scientists.
 
 ## Business Case
-State the business case here. If you are creating a document as sophisticated as a Project Charter it is likely that there is a separate Business Case document (and possibly presentation slides and spreadsheets). You should reference any relevant business case documentation here for the audience. 
 
-The business case should state the problem or opportunity that the business is addressing, the likely benefit, the cost associated with achieving the goal(s) and set out the ROI in clear terms. If the project is only a small part of the business case then it should be made clear in the Project Charter that the project is part of a larger strategic initiative, which might be described depending on sensitivity. 
+MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with ~40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.
 
+The MIMIC3py Python library is designed to help healthcare data scientists analyze this data.  IT includes tools to download, verify and load the data.  
+
+MIMIC3py also demonstrates how to perform "feature engineering", converting the data into a format that can be analyzewd using machine learning algorithms.  Sample scripts show how sk-learn and TensorFlow can be used to analyze MIMIC III data.
+
+The business case for this project is the belief that MIMIC III data contains hidden knowledge that can improve healthcare.  This project contributes to the discovery of that knowledge by automating the routine tasks, allowing healthcare data scientist to focus on "the fun stuff". 
 ## Project Scope
 
 ### Objectives
